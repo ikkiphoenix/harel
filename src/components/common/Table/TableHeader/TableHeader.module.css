@@ -1,0 +1,7 @@
+.iconAsc {
+  transform: translate(50%, 25%);
+}
+
+.iconDesc {
+  transform: translate(50%, -10%);
+}

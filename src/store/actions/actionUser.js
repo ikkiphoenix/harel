@@ -1,1 +1,1 @@
-export const SetUser = 'SetUser';
+export const SetUser = "SetUser";

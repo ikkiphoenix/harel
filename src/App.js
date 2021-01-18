@@ -1,9 +1,7 @@
-import './App.css';
-import MyRouter from './router/Router';
+import MyRouter from "./router/Router";
 
-const App = props => {
-
+const App = (props) => {
   return <MyRouter />;
-}
+};
 
 export default App;
