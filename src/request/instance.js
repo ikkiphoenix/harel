@@ -1,7 +1,8 @@
 import axios from "axios";
+import { REACT_APP_HOST } from "../config/env";
 
 const instance = axios.create({
-  baseURL: "https://test-api-server.herokuapp.com/",
+  baseURL: REACT_APP_HOST,
 });
 
 export default instance;
